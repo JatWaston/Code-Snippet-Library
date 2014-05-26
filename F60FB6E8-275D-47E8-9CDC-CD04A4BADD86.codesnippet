@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIActivityIndicatorView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIActivityIndicatorView *activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:&lt;#(UIActivityIndicatorViewStyle)#&gt;];
+    activityView.center = CGPointMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;);
+    [activityView startAnimating];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F60FB6E8-275D-47E8-9CDC-CD04A4BADD86</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create a UIActivityIndicatorView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIActivityIndicatorView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
