@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSNotificationCenter</string>
+	<string>NSURLConnectionDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#(NSString *)#&gt; object:&lt;#(id)#&gt;];</string>
+	<string>#pragma mark - NSURLConnectionDelegate
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4AFABA32-34AD-49A3-AC42-57A2F5BE0A5D</string>
+	<string>46156567-9159-4EA4-A1D0-DB68B84C81AE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>NSNotificationCenter addObserver</string>
+	<string>NSURLConnectionDelegate Method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSNotificationCenter addObserver</string>
+	<string>NSURLConnectionDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

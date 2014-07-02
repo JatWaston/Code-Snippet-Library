@@ -3,24 +3,39 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSNotificationCenter</string>
+	<string>NSURLConnectionDataDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#selector#&gt;) name:&lt;#(NSString *)#&gt; object:&lt;#(id)#&gt;];</string>
+	<string>#pragma mark - NSURLConnectionDataDelegate
+
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
+{
+    
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+    
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection
+{
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4AFABA32-34AD-49A3-AC42-57A2F5BE0A5D</string>
+	<string>5E4121D8-7C07-405F-AE7F-2FA45611A980</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>NSNotificationCenter addObserver</string>
+	<string>NSURLConnectionDataDelegate Method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSNotificationCenter addObserver</string>
+	<string>NSURLConnectionDataDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
